@@ -5,7 +5,14 @@
 
     <groupId>com.purgeteam.cloud</groupId>
     <artifactId>spirng-cloud-purgeteam</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <version>0.1.0.RELEASE</version>
+
+    <modules>
+        <module>ceph-spring-cloud</module>
+    </modules>
+
+
     <name>spirng-cloud-purgeteam</name>
     <description>spirng-cloud-purgeteam</description>
     <url>https://github.com/purgeteam/spirng-cloud-purgeteam</url>

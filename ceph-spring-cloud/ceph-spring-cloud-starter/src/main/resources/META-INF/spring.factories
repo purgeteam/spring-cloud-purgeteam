@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.purgeteam.cloud.starter.ceph.CephConfiguration
