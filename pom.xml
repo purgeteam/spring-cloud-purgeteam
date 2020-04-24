@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
@@ -10,6 +11,8 @@
 
     <modules>
         <module>ceph-spring-cloud</module>
+        <module>spring-cloud-purgeteam-examples</module>
+        <module>spring-cloud-purgeteam-starters</module>
     </modules>
 
 
@@ -42,7 +45,8 @@
     <!-- 代码库 -->
     <scm>
         <connection>scm:git:git://github.com/purgeteam/spirng-cloud-purgeteam.git</connection>
-        <developerConnection>scm:git:ssh://github.com/purgeteam/spirng-cloud-purgeteam.git</developerConnection>
+        <developerConnection>scm:git:ssh://github.com/purgeteam/spirng-cloud-purgeteam.git
+        </developerConnection>
         <url>https://github.com/purgeteam/spirng-cloud-purgeteam</url>
     </scm>
 
