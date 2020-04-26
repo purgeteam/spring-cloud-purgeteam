@@ -19,6 +19,11 @@ public class ExampleController implements ExampleFeignClient {
     }
 
     @Override
+    public Boolean testBoolean() throws Exception {
+        throw new Exception("模拟异常");
+    }
+
+    @Override
     public Example example() throws Exception {
         throw new Exception("模拟异常");
     }

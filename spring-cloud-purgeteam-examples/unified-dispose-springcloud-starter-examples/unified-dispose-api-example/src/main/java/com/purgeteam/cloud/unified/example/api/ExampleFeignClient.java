@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @author <a href="mailto:yaoonlyi@gmail.com">purgeyao</a>
  * @since 1.0.0
  */
-@FeignClient(value = "unified-dispose-b-example", url = "127.0.0.1:11001")
+@FeignClient(value = "unified-dispose-b-example", url = "127.0.0.1:11001", fallback = ExampleFeignFallback.class)
 public interface ExampleFeignClient {
 
     /**
@@ -21,7 +21,15 @@ public interface ExampleFeignClient {
     String test() throws Exception;
 
     /**
+     * testBoolean
+     * @return boolean
+     */
+    @GetMapping(value = "testBoolean")
+    Boolean testBoolean() throws Exception;
+
+    /**
      * 测试实体返回
+     *
      * @return Example
      */
     @GetMapping(value = "example")

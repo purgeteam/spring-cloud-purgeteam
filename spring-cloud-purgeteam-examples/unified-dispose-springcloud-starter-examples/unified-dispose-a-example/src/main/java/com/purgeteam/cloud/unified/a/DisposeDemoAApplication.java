@@ -12,7 +12,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  * @since 1.0.0
  */
 @EnableFeignClients(basePackageClasses = {ExampleFeignClient.class})
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.purgeteam.cloud.unified.a", "com.purgeteam.cloud.unified.example.api"})
 public class DisposeDemoAApplication {
 
     public static void main(String[] args) {

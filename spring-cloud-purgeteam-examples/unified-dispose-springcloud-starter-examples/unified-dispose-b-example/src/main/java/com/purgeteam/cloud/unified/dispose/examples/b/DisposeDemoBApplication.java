@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author <a href="mailto:yaoonlyi@gmail.com">purgeyao</a>
  * @since 1.0.0
  */
-//@EnableGlobalDispose
+@EnableGlobalDispose
 @SpringBootApplication
 public class DisposeDemoBApplication {
 

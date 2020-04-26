@@ -25,6 +25,12 @@ public class ExampleController {
         return exampleFeignClient.test();
     }
 
+    @GetMapping("testBoolean")
+    public Boolean testBoolean() throws Exception {
+        // 调用服务端异常 feign.FeignException: status 500 reading ExampleFeignClient#test()
+        return exampleFeignClient.testBoolean();
+    }
+
     @GetMapping("example")
     public Example example() throws Exception {
         // 调用服务端异常 feign.FeignException: status 500 reading ExampleFeignClient#test()
