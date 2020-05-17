@@ -6,7 +6,8 @@
     <parent>
         <groupId>com.purgeteam.cloud</groupId>
         <artifactId>ceph-spring-cloud</artifactId>
-        <version>0.1.0.RELEASE</version>
+        <version>${revision}</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>

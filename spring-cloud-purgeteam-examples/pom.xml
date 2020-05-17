@@ -3,9 +3,10 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>spirng-cloud-purgeteam</artifactId>
         <groupId>com.purgeteam.cloud</groupId>
-        <version>0.1.0.RELEASE</version>
+        <artifactId>spirng-cloud-purgeteam</artifactId>
+        <version>${revision}</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -15,6 +16,20 @@
     <modules>
         <module>unified-dispose-springcloud-starter-examples</module>
     </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.purgeteam.cloud</groupId>
+                <artifactId>unified-dispose-api-example</artifactId>
+                <version>${revision}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+
+    </dependencies>
 
 
 </project>
