@@ -5,14 +5,14 @@
 
     <parent>
         <groupId>com.purgeteam.cloud</groupId>
-        <artifactId>ceph-spring-cloud</artifactId>
+        <artifactId>spring-cloud-purgeteam-examples</artifactId>
         <version>${revision}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ceph-spring-cloud-demo</artifactId>
+    <artifactId>ceph-spring-cloud-starter-example</artifactId>
 
     <dependencies>
         <dependency>

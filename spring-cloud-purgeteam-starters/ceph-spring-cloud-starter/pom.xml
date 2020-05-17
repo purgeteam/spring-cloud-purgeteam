@@ -5,7 +5,7 @@
 
     <parent>
         <groupId>com.purgeteam.cloud</groupId>
-        <artifactId>ceph-spring-cloud</artifactId>
+        <artifactId>spring-cloud-purgeteam-starters</artifactId>
         <version>${revision}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>

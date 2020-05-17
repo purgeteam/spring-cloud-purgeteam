@@ -14,7 +14,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>unified-dispose-springcloud-starter-examples</module>
+        <module>unified-dispose-spring-cloud-starter-examples</module>
+        <module>ceph-spring-cloud-starter-example</module>
     </modules>
 
     <dependencyManagement>

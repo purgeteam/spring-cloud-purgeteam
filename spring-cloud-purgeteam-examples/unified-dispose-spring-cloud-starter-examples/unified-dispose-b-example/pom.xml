@@ -5,7 +5,7 @@
 
     <parent>
         <groupId>com.purgeteam.cloud</groupId>
-        <artifactId>unified-dispose-springcloud-starter-examples</artifactId>
+        <artifactId>unified-dispose-spring-cloud-starter-examples</artifactId>
         <version>${revision}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>

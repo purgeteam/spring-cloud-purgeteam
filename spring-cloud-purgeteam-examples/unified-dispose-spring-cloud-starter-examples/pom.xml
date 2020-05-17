@@ -5,19 +5,21 @@
 
     <parent>
         <groupId>com.purgeteam.cloud</groupId>
-        <artifactId>spirng-cloud-purgeteam</artifactId>
+        <artifactId>spring-cloud-purgeteam-examples</artifactId>
         <version>${revision}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ceph-spring-cloud</artifactId>
+    <artifactId>unified-dispose-spring-cloud-starter-examples</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>ceph-spring-cloud-starter</module>
-        <module>ceph-spring-cloud-demo</module>
+        <module>unified-dispose-a-example</module>
+        <module>unified-dispose-b-example</module>
+        <module>unified-dispose-api-example</module>
     </modules>
-    
+
+
 </project>

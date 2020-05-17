@@ -10,7 +10,6 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>ceph-spring-cloud</module>
         <module>spring-cloud-purgeteam-examples</module>
         <module>spring-cloud-purgeteam-starters</module>
         <module>spring-cloud-purgeteam-dependencies</module>

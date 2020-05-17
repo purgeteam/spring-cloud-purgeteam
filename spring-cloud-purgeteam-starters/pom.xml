@@ -14,5 +14,8 @@
     <artifactId>spring-cloud-purgeteam-starters</artifactId>
     <packaging>pom</packaging>
 
+    <modules>
+        <module>ceph-spring-cloud-starter</module>
+    </modules>
 
 </project>
