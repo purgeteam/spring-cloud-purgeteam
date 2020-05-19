@@ -14,8 +14,12 @@
     <artifactId>spring-cloud-purgeteam-starters</artifactId>
     <packaging>pom</packaging>
 
+    <name>SpringCloud Purgeteam Starters</name>
+    <description>SpringCloud Purgeteam Starters</description>
+
     <modules>
         <module>ceph-spring-cloud-starter</module>
+        <module>unified-dispose-spring-cloud-starter</module>
     </modules>
 
 </project>
