@@ -21,9 +21,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.purgeteam</groupId>
-            <artifactId>unified-dispose-springboot-starter</artifactId>
-            <version>0.1.2.RELEASE</version>
+            <groupId>com.purgeteam.cloud</groupId>
+            <artifactId>unified-dispose-spring-cloud-starter</artifactId>
+            <version>0.3.0.RELEASE</version>
         </dependency>
 
         <!-- 三方包 -->

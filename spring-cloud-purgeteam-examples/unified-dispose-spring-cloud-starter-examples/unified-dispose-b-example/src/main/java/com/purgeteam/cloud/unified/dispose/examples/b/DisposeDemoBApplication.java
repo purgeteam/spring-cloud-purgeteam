@@ -1,6 +1,6 @@
 package com.purgeteam.cloud.unified.dispose.examples.b;
 
-import com.purgeteam.dispose.starter.annotation.EnableGlobalDispose;
+import com.purgeteam.cloud.dispose.starter.annotation.EnableGlobalDispose;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
