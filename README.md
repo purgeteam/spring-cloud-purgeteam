@@ -1,4 +1,11 @@
 # spirng-cloud-purgeteam
+
+![SpringBoot](https://img.shields.io/badge/SpringBoot-2.1.8RELEASE-green.svg)
+![SpringCloud](https://img.shields.io/badge/SpringCloud-Greenwich.RELEASE-green.svg)
+![JAVA](https://img.shields.io/badge/JAVA-1.8+-green.svg)
+![Maven](https://img.shields.io/badge/Maven-3.0+-green.svg)
+![badge](https://img.shields.io/badge/buil-passing-green.svg)
+
 ## 简介:
 简化开发共用代码过程，包含以下组件：
 
