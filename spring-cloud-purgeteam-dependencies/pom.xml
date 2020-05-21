@@ -12,7 +12,10 @@
 
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.purgeteam.cloud</groupId>
     <artifactId>spring-cloud-purgeteam-dependencies</artifactId>
+    <version>${revision}</version>
+    <packaging>pom</packaging>
     <name>SpringCloud Purgeteam Dependencies</name>
     <description>SpringCloud Purgeteam Dependencies</description>
 
@@ -43,7 +46,7 @@
 
             <dependency>
                 <groupId>com.purgeteam.cloud</groupId>
-                <artifactId>unified-dispose-spring-cloud-starter-examples</artifactId>
+                <artifactId>unified-dispose-spring-cloud-starter</artifactId>
                 <version>${revision}</version>
             </dependency>
 
