@@ -41,6 +41,11 @@
     <dependencyManagement>
         <dependencies>
 
+            <dependency>
+                <groupId>com.purgeteam.cloud</groupId>
+                <artifactId>unified-dispose-spring-cloud-starter-examples</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>

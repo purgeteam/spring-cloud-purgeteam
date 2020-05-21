@@ -19,7 +19,6 @@
         <dependency>
             <groupId>com.purgeteam.cloud</groupId>
             <artifactId>unified-dispose-spring-cloud-starter</artifactId>
-            <version>0.3.0.RELEASE</version>
         </dependency>
 
         <dependency>

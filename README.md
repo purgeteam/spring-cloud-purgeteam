@@ -27,8 +27,9 @@ todo: 其他模块整理集成中。。。
 ```
 <dependencyManagement>
     <dependencies>
+        <!-- purgeteam 组件版本管理 -->
         <dependency>
-            <groupId>com.purgeteam.cloud</gro upId>
+            <groupId>com.purgeteam.cloud</groupId>
             <artifactId>spirng-cloud-purgeteam</artifactId>
             <version>0.3.0.RELEASE</version>
             <type>pom</type>
