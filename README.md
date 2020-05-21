@@ -1,5 +1,6 @@
 # spirng-cloud-purgeteam
 
+[![Maven Central](https://img.shields.io/maven-central/v/com.purgeteam.cloud/spirng-cloud-purgeteam.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:com.purgeteam.cloud%20AND%20a:spirng-cloud-purgeteam)
 ![SpringBoot](https://img.shields.io/badge/SpringBoot-2.1.8RELEASE-green.svg)
 ![SpringCloud](https://img.shields.io/badge/SpringCloud-Greenwich.RELEASE-green.svg)
 ![JAVA](https://img.shields.io/badge/JAVA-1.8+-green.svg)
