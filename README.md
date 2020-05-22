@@ -1,6 +1,6 @@
 # spirng-cloud-purgeteam
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.purgeteam.cloud/spirng-cloud-purgeteam.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:com.purgeteam.cloud%20AND%20a:spirng-cloud-purgeteam)
+[![Maven Central](https://img.shields.io/maven-central/v/com.purgeteam.cloud/spring-cloud-purgeteam-dependencies.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:com.purgeteam.cloud%20AND%20a:spirng-cloud-purgeteam)
 ![SpringBoot](https://img.shields.io/badge/SpringBoot-2.1.8RELEASE-green.svg)
 ![SpringCloud](https://img.shields.io/badge/SpringCloud-Greenwich.RELEASE-green.svg)
 ![JAVA](https://img.shields.io/badge/JAVA-1.8+-green.svg)
@@ -17,9 +17,9 @@ todo: 其他模块整理集成中。。。
 ## 功能使用
 
 **ps:** 实际version版本请使用最新版
-**最新版本:** [![Maven Central](https://img.shields.io/maven-central/v/com.purgeteam.cloud/spirng-cloud-purgeteam.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:com.purgeteam.cloud%20AND%20a:spirng-cloud-purgeteam)
+**最新版本:** [![Maven Central](https://img.shields.io/maven-central/v/com.purgeteam.cloud/spring-cloud-purgeteam-dependencies.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:com.purgeteam.cloud%20AND%20a:spirng-cloud-purgeteam)
 
-[点击查看最新新版本](https://search.maven.org/search?q=g:com.purgeteam.cloud%20AND%20a:spirng-cloud-purgeteam)
+[点击查看最新新版本](https://search.maven.org/search?q=g:com.purgeteam.cloud%20AND%20a:spring-cloud-purgeteam-dependencies)
 
 > 添加依赖
 
