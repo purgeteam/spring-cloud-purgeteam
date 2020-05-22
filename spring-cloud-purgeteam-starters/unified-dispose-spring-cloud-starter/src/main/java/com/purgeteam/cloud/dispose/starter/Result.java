@@ -131,6 +131,7 @@ public class Result<T> implements Serializable {
 
     /**
      * 获取 json
+     * @return json
      */
     public String buildResultJson() {
         JSONObject jsonObject = new JSONObject();
