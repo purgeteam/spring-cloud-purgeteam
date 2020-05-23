@@ -2,7 +2,7 @@
 
 请支持我们的项目，给项目加星。感谢啦😉
 
-具体框架请访问：[首页](https://github.com/purgeteam/spirng-cloud-purgeteam)
+具体框架请访问：🚀🚀🚀🚀[首页](https://github.com/purgeteam/spirng-cloud-purgeteam)
 
 ## 例子项目结构
 
