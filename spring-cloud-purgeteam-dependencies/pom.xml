@@ -32,7 +32,7 @@
     </distributionManagement>
 
     <properties>
-        <revision>0.3.0.RELEASE</revision>
+        <revision>0.3.1.RELEASE</revision>
 
         <!-- Maven Plugin Versions -->
         <maven-source-plugin.version>2.2.1</maven-source-plugin.version>
