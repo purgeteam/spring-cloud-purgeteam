@@ -5,22 +5,19 @@
 
     <parent>
         <groupId>com.purgeteam.cloud</groupId>
-        <artifactId>spirng-cloud-purgeteam</artifactId>
+        <artifactId>spring-cloud-purgeteam-examples</artifactId>
         <version>${revision}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>spring-cloud-purgeteam-starters</artifactId>
+
+    <artifactId>swagger-spring-cloud-starter-example</artifactId>
+
     <packaging>pom</packaging>
 
-    <name>SpringCloud Purgeteam Starters</name>
-    <description>SpringCloud Purgeteam Starters</description>
-
     <modules>
-        <module>ceph-spring-cloud-starter</module>
-        <module>unified-dispose-spring-cloud-starter</module>
-        <module>swagger-spring-cloud-starter</module>
+        <module>swagger-a-example</module>
     </modules>
 
 </project>

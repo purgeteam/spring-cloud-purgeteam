@@ -50,6 +50,12 @@
                 <version>${revision}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.purgeteam.cloud</groupId>
+                <artifactId>swagger-spring-cloud-starter</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

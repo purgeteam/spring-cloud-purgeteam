@@ -16,6 +16,7 @@
     <modules>
         <module>unified-dispose-spring-cloud-starter-examples</module>
         <module>ceph-spring-cloud-starter-example</module>
+        <module>swagger-spring-cloud-starter-example</module>
     </modules>
 
     <dependencyManagement>

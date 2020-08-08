@@ -1,0 +1,33 @@
+{
+  "properties": [
+    {
+      "name": "swagger.basePackage",
+      "type": "java.lang.String",
+      "description": "文档扫描包路径。"
+    },
+    {
+      "name": "swagger.title",
+      "type": "java.lang.String",
+      "defaultValue": "平台系统接口详情",
+      "description": "title 如: 用户模块系统接口详情。"
+    },
+    {
+      "name": "swagger.description",
+      "type": "java.lang.String",
+      "defaultValue": "在线文档",
+      "description": "服务文件介绍。"
+    },
+    {
+      "name": "swagger.termsOfServiceUrl",
+      "type": "java.lang.String",
+      "defaultValue": "https://www.purgeteam.com/",
+      "description": "服务条款网址。"
+    },
+    {
+      "name": "swagger.version",
+      "type": "java.lang.String",
+      "defaultValue": "V1.0",
+      "description": "版本。"
+    }
+  ]
+}
