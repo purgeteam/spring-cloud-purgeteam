@@ -63,7 +63,7 @@
 
     <properties>
         <!-- Project revision -->
-        <revision>0.3.1.RELEASE</revision>
+        <revision>0.3.11.RELEASE</revision>
 
         <spring-boot.version>2.1.8.RELEASE</spring-boot.version>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
