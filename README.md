@@ -1,4 +1,4 @@
-# spirng-cloud-purgeteam
+# spring-cloud-purgeteam
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.purgeteam.cloud/spring-cloud-purgeteam-dependencies.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:com.purgeteam.cloud%20AND%20a:spirng-cloud-purgeteam)
 ![SpringBoot](https://img.shields.io/badge/SpringBoot-2.1.8RELEASE-green.svg)
