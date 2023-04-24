@@ -13,6 +13,7 @@
         <module>spring-cloud-purgeteam-examples</module>
         <module>spring-cloud-purgeteam-starters</module>
         <module>spring-cloud-purgeteam-dependencies</module>
+        <module>common</module>
     </modules>
 
     <name>SpringCloud Purgeteam Starter</name>
@@ -63,10 +64,10 @@
 
     <properties>
         <!-- Project revision -->
-        <revision>0.3.11.RELEASE</revision>
+        <revision>0.4.0.RELEASE</revision>
 
-        <spring-boot.version>2.1.8.RELEASE</spring-boot.version>
-        <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
+        <spring-boot.version>2.3.2.RELEASE</spring-boot.version>
+        <spring-cloud.version>Hoxton.SR8</spring-cloud.version>
         <spring-cloud-openfeign.version>2.1.2.RELEASE</spring-cloud-openfeign.version>
 
         <!-- jvm -->

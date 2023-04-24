@@ -1,10 +1,12 @@
 package com.purgeteam.cloud.dispose.starter.exception;
 
 import com.netflix.client.ClientException;
-import com.purgeteam.cloud.dispose.starter.Result;
+import com.purgeteam.cloud.dispose.common.CommonErrorCode;
+import com.purgeteam.cloud.dispose.common.ErrorLogUtils;
+import com.purgeteam.cloud.dispose.common.Result;
+import com.purgeteam.cloud.dispose.starter.GlobalDefaultProperties;
 import com.purgeteam.cloud.dispose.starter.annotation.IgnoreResponseAdvice;
 import com.purgeteam.cloud.dispose.starter.exception.category.BusinessException;
-import com.purgeteam.cloud.dispose.starter.exception.error.CommonErrorCode;
 import feign.FeignException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -41,6 +43,12 @@ import java.util.Set;
 public class GlobalDefaultExceptionHandler {
 
     private final static Logger log = LoggerFactory.getLogger(GlobalDefaultExceptionHandler.class);
+
+    private GlobalDefaultProperties properties;
+
+    public GlobalDefaultExceptionHandler(GlobalDefaultProperties properties) {
+        this.properties = properties;
+    }
 
     /**
      * NoHandlerFoundException 404 异常处理
@@ -240,8 +248,8 @@ public class GlobalDefaultExceptionHandler {
     }
 
     public void outPutError(Class errorType, Enum secondaryErrorType, Throwable throwable) {
-        log.error("[{}] {}: {}", errorType.getSimpleName(), secondaryErrorType, throwable.getMessage(),
-                throwable);
+        String throwableString = ErrorLogUtils.getErrorMsg(throwable, properties.getErrorMsgShowMaxCount());
+        log.error("[{}] {}: {} {}", errorType.getSimpleName(), secondaryErrorType, throwable.getMessage(), throwableString);
     }
 
     public void outPutErrorWarn(Class errorType, Enum secondaryErrorType, Throwable throwable) {

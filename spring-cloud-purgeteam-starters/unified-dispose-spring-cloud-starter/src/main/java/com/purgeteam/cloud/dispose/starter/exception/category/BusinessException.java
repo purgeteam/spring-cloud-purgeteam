@@ -1,6 +1,6 @@
 package com.purgeteam.cloud.dispose.starter.exception.category;
 
-import com.purgeteam.cloud.dispose.starter.exception.error.CommonErrorCode;
+import com.purgeteam.cloud.dispose.common.CommonErrorCode;
 import com.purgeteam.cloud.dispose.starter.exception.error.details.BusinessErrorCode;
 
 /**

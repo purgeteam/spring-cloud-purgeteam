@@ -32,7 +32,7 @@ todo: 其他模块整理集成中。。。
         <dependency>
             <groupId>com.purgeteam.cloud</groupId>
             <artifactId>spring-cloud-purgeteam-dependencies</artifactId>
-            <version>0.3.0.RELEASE</version>
+            <version>0.3.11.RELEASE</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>

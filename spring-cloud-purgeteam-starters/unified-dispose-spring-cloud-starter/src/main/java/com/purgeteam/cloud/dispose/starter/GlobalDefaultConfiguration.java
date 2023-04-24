@@ -19,8 +19,8 @@ import org.springframework.context.annotation.PropertySource;
 public class GlobalDefaultConfiguration {
 
     @Bean
-    public GlobalDefaultExceptionHandler globalDefaultExceptionHandler() {
-        return new GlobalDefaultExceptionHandler();
+    public GlobalDefaultExceptionHandler globalDefaultExceptionHandler(GlobalDefaultProperties properties) {
+        return new GlobalDefaultExceptionHandler(properties);
     }
 
     @Bean

@@ -2,7 +2,7 @@ package com.purgeteam.cloud.dispose.starter.advice;
 
 import com.alibaba.fastjson.JSON;
 import com.purgeteam.cloud.dispose.starter.GlobalDefaultProperties;
-import com.purgeteam.cloud.dispose.starter.Result;
+import com.purgeteam.cloud.dispose.common.Result;
 import com.purgeteam.cloud.dispose.starter.annotation.IgnoreResponseAdvice;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
@@ -13,6 +13,8 @@ import org.springframework.lang.Nullable;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 
+import java.util.Objects;
+
 /**
  * {@link IgnoreResponseAdvice} 处理解析 {@link ResponseBodyAdvice} 统一返回包装器
  *
@@ -22,7 +24,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 @RestControllerAdvice
 public class CommonResponseDataAdvice implements ResponseBodyAdvice<Object> {
 
-    private GlobalDefaultProperties globalDefaultProperties;
+    private final GlobalDefaultProperties globalDefaultProperties;
 
     public CommonResponseDataAdvice(GlobalDefaultProperties globalDefaultProperties) {
         this.globalDefaultProperties = globalDefaultProperties;
@@ -48,7 +50,7 @@ public class CommonResponseDataAdvice implements ResponseBodyAdvice<Object> {
         // o is null -> return response
         if (o == null) {
             // 当 o 返回类型为 string 并且为null会出现 java.lang.ClassCastException: Result cannot be cast to java.lang.String
-            if (methodParameter.getParameterType().getName().equals("java.lang.String")) {
+            if ("java.lang.String".equals(methodParameter.getParameterType().getName())) {
                 return JSON.toJSON(Result.ofSuccess()).toString();
             }
             return Result.ofSuccess();
@@ -80,7 +82,7 @@ public class CommonResponseDataAdvice implements ResponseBodyAdvice<Object> {
         if (methodParameter.getDeclaringClass().isAnnotationPresent(IgnoreResponseAdvice.class)) {
             return false;
         }
-        if (methodParameter.getMethod().isAnnotationPresent(IgnoreResponseAdvice.class)) {
+        if (Objects.requireNonNull(methodParameter.getMethod()).isAnnotationPresent(IgnoreResponseAdvice.class)) {
             return false;
         }
         return true;

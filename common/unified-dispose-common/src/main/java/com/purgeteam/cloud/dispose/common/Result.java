@@ -1,9 +1,8 @@
-package com.purgeteam.cloud.dispose.starter;
+package com.purgeteam.cloud.dispose.common;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.serializer.SerializerFeature;
-import com.purgeteam.cloud.dispose.starter.exception.error.CommonErrorCode;
 
 import java.io.Serializable;
 
