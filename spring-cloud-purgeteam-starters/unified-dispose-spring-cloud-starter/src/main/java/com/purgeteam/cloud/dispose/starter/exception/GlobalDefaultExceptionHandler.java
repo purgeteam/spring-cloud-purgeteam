@@ -248,6 +248,12 @@ public class GlobalDefaultExceptionHandler {
     }
 
     public void outPutError(Class errorType, Enum secondaryErrorType, Throwable throwable) {
+        // 如果为自定义异常 仅打印异常所在stackTraceElement 节省log
+        if (throwable instanceof BusinessException) {
+            StackTraceElement stackTraceElement = throwable.getStackTrace()[0];
+            log.error("[{}] {}: {} {}", errorType.getSimpleName(), secondaryErrorType, throwable.getMessage(), stackTraceElement.toString());
+            return;
+        }
         String throwableString = ErrorLogUtils.getErrorMsg(throwable, properties.getErrorMsgShowMaxCount());
         log.error("[{}] {}: {} {}", errorType.getSimpleName(), secondaryErrorType, throwable.getMessage(), throwableString);
     }
